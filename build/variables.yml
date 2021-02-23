@@ -1,12 +1,12 @@
 # Common Variables
 
 variables:
+- group: xamops-azdev-secrets
+- group: Xamarin-Secrets
+- group: akaxvs-secrets
 - group: Xamarin Release
 - group: Xamarin Signing
 - group: Xamarin Notarization
-- group: Xamarin-Secrets
-- group: xamops-azdev-secrets
-- group: akaxvs-secrets
 - name: MSBUILDDISABLENODEREUSE
   value: 1
 - name: VSS_NUGET_EXTERNAL_FEED_ENDPOINTS
