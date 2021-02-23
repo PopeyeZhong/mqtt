@@ -3,7 +3,7 @@
 variables:
 - group: xamops-azdev-secrets
 - group: Xamarin-Secrets
-- group: akaxvs-secrets
+#- group: akaxvs-secrets
 - group: Xamarin Release
 - group: Xamarin Signing
 - group: Xamarin Notarization
